@@ -8,10 +8,9 @@
 
 'use strict';
 
-// Nodejs libs.
-// External libs.
-// Internal libs.
+var bowerLatest = require('bower-latest');
 
-var bower-latest = require('bower-latest');
-
-bower-latest.awesome(); // "awesome"
+bowerLatest('backbone', function(compontent){
+  console.log(compontent.name);
+  console.log(compontent.version);
+});

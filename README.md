@@ -3,7 +3,6 @@
 
 The best module ever.
 
-
 ## Install
 
 ```bash
@@ -14,8 +13,10 @@ $ npm install --save bower-latest
 ## Usage
 
 ```javascript
-var bower-latest = require('bower-latest');
-bower-latest.awesome(); // "awesome"
+var bowerLatest = require('bower-latest');
+bowerLatest('backbone', function(compontent){
+  console.log(compontent.version);
+});
 ```
 
 ## API
@@ -45,5 +46,5 @@ Copyright (c) 2014 Kentaro Wakayama. Licensed under the MIT license.
 [travis-image]: https://travis-ci.org/kwakayama/bower-latest.svg?branch=master
 [daviddm-url]: https://david-dm.org/kwakayama/bower-latest.svg?theme=shields.io
 [daviddm-image]: https://david-dm.org/kwakayama/bower-latest
-[coveralls-url]: https://coveralls.io/r/kwakayama/bower-latest
-[coveralls-image]: https://coveralls.io/repos/kwakayama/bower-latest/badge.png
+[coveralls-url]: https://coveralls.io/r/kwakayama/bower-latest?branch=master
+[coveralls-image]: https://coveralls.io/repos/kwakayama/bower-latest/badge.png?branch=master
