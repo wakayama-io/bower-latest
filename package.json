@@ -14,8 +14,11 @@
     "type": "git",
     "url": "https://github.com/kwakayama/bower-latest"
   },
-  "keywords":[],
-  "dependencies": {},
+  "keywords": [],
+  "dependencies": {
+    "bower": "^1.3.3",
+    "request": "^2.34.0"
+  },
   "devDependencies": {
     "gulp": "~3.5.2",
     "gulp-bump": "~0.1.4",
