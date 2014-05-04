@@ -1,6 +1,6 @@
 {
   "name": "bower-latest",
-  "description": "The best module ever.",
+  "description": "Quickly find the latest version of a package in bower.",
   "version": "1.1.2",
   "homepage": "https://github.com/kwakayama/bower-latest",
   "bugs": "https://github.com/kwakayama/bower-latest/issues",
