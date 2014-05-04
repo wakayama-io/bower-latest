@@ -8,7 +8,7 @@
 
 'use strict';
 
-var bowerLatest = require('bower-latest');
+var bowerLatest = require('../');
 
 bowerLatest('backbone', function(compontent){
   console.log(compontent.name);
