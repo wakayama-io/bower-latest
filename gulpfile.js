@@ -6,6 +6,7 @@ var jscs = require('gulp-jscs');
 var istanbul = require('gulp-istanbul');
 var mocha  = require('gulp-mocha');
 var bump   = require('gulp-bump');
+var _ = require('lodash');
 
 var paths = {
   lint: ['./gulpfile.js', './lib/**/*.js'],
@@ -37,6 +38,11 @@ gulp.task('bump', ['test'], function () {
   return gulp.src(['./package.json'])
     .pipe(bump({ type: bumpType }))
     .pipe(gulp.dest('./'));
+});
+
+gulp.task('watch', function () {
+  gulp.run('istanbul');
+  gulp.watch(_.union(paths.lint, paths.tests), ['istanbul']);
 });
 
 gulp.task('test', ['lint', 'istanbul']);
