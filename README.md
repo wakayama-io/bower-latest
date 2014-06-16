@@ -42,9 +42,9 @@ Copyright (c) 2014 Kentaro Wakayama. Licensed under the MIT license.
 
 [npm-url]: https://npmjs.org/package/bower-latest
 [npm-image]: https://badge.fury.io/js/bower-latest.svg
-[travis-url]: https://travis-ci.org/kwakayama/bower-latest
-[travis-image]: https://travis-ci.org/kwakayama/bower-latest.svg?branch=master
-[daviddm-url]: https://david-dm.org/kwakayama/bower-latest.svg?theme=shields.io
-[daviddm-image]: https://david-dm.org/kwakayama/bower-latest
-[coveralls-url]: https://coveralls.io/r/kwakayama/bower-latest?branch=master
-[coveralls-image]: https://coveralls.io/repos/kwakayama/bower-latest/badge.png?branch=master
+[travis-url]: https://travis-ci.org/wakayama-io/bower-latest
+[travis-image]: https://travis-ci.org/wakayama-io/bower-latest.svg?branch=master
+[daviddm-url]: https://david-dm.org/wakayama-io/bower-latest.svg?theme=shields.io
+[daviddm-image]: https://david-dm.org/wakayama-io/bower-latest
+[coveralls-url]: https://coveralls.io/r/wakayama-io/bower-latest?branch=master
+[coveralls-image]: https://coveralls.io/repos/wakayama-io/bower-latest/badge.png?branch=master
